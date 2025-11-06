@@ -1,0 +1,13 @@
+{
+  "templates": {
+    "default.png": {
+      "version": "1",
+      "hash": "v1",
+      "fields": {
+        "name": { "x": -75, "y": 575, "w": 1200, "h": 150, "align": "center", "font": "bold 24px Sans" },
+        "course": { "x": 200, "y": 350, "w": 1200, "h": 200, "align": "center", "font": "normal 48px Sans" },
+        "id": { "x": 100, "y": 100, "w": 600, "h": 40, "align": "left", "font": "normal 20px Monospace" }
+      }
+    }
+  }
+}
