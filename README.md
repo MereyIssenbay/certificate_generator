@@ -20,7 +20,7 @@ npm start
 Загрузите шаблон (PNG/JPG) через /templates
 
 Укажите координаты полей в templates/templates.json
-
+```
 {
   "templates": {
     "default.png": {
@@ -34,13 +34,15 @@ npm start
     }
   }
 }
-
+```
 
 Отправьте POST-запрос на /generate с данными:
-
+```
 {
   "template": "default.png",
   "name": "Түгенше Пәленше Пәленбайұлы",
   "courses": ["Node.js Basicsавыаовылоаивыолапвыавыраро", "Decentrathon 4.0"],
   "idPrefix": "CERT-"
 }
+
+```
